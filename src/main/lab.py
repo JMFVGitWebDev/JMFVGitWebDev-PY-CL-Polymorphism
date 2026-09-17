@@ -37,7 +37,7 @@ class Circle(Shape):
     """
     # Write your code here
     def area(radius):
-        return math.pi * (radius ** 2)
+        return math.pi * (radius * radius)
 
 
 class Rectangle(Shape):
