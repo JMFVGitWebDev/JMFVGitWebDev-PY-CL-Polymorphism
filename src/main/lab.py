@@ -55,5 +55,5 @@ class Rectangle(Shape):
     - float: The area of the rectangle.
     """
     # Write you code here
-    def area(width=0, height=0):
+    def area(width=0, height=None):
         return width * height
