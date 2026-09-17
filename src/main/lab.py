@@ -56,4 +56,4 @@ class Rectangle(Shape):
     """
     # Write you code here
     def area(self):
-        return width * height
+        return self.width * self.height
