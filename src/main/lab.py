@@ -22,7 +22,7 @@ class Shape:
 
 class Circle(Shape):
     def __init__(self, radius):
-        self.radius = radius
+        self.radius = float(radius)
     """
 
     To do: Write an area() method for the Circle class to calculate and return the area of the circle.
